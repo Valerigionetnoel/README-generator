@@ -4,9 +4,9 @@
 
 ## Description
 
-I made a readme generator that create a professional readme using node
+I made a readme generator that create professional readme using node
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,15 +17,17 @@ I made a readme generator that create a professional readme using node
 
 ## Installation
 
-You'll need to install inquirer using npm install in your terminal
+You will need to install inquirer using npm install in your terminal
 
 ## Usage
 
-Once you have inquirer install run node index.js to start the program. Answer the question and thats it!
+![This is my gif of the walkthrough to use my application](/gif/Readme%20generator%20show%20off.gif)
+
+Once you have inquirer install run node index.js in your terminal
 
 ## Credits
 
-undefined
+We have Valeri Gionet-Noel working on this project
         
 ## License
 
@@ -37,5 +39,5 @@ My github username is [Valerigionetnoel](https://www.github.com/Valerigionetnoel
      
 ## Tests
 
-To test, you can run the application and answer anything. You'll get your readme file in a second!
+To test, you can run the application and answer anything. You will get your readme file in a second!
     

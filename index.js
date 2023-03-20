@@ -63,7 +63,7 @@ const questions = [
 
 ${response.projectDescription}
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
