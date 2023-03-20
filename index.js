@@ -51,12 +51,12 @@ const questions = [
         {
             type: 'list',
             message: 'What license do you use?',
-            choices: ['MIT', 'Apache 2.0'],
+            choices: ['MIT', 'Apache-2.0', 'BSD-3-Clause', 'EPL-1.0', 'MPL-2.0'],
             name: 'license'
         },
     ]).then((response) => {
         const readmeString = `
-${response.license}
+![GitHub license](https://img.shields.io/badge/license-${response.license}-blue.svg)
 # ${response.title}
 
 ## Description
@@ -82,17 +82,16 @@ ${response.usage}
 
 ## Credits
 
-${response.constribute}
+We have ${response.contribute} working on this project
         
 ## License
 
-${response.license}
+[${response.license}](https://opensource.org/licenses/${response.license})
 
 ## Question
 
-My github username is [${response.githubUserName}](https://www.github.com/${response.githubUserName}) and you can contact me by email at ${response.email}
-
-        
+My github username is [${response.githubUserName}](https://www.github.com/${response.githubUserName}) and you can contact me by email at [${response.email}](${response.email})
+     
 ## Tests
 
 ${response.test}
